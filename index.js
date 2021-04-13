@@ -10,9 +10,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(str)
+function greet(time)
 {
-  let arr = str.split(":");
+  let arr = time.split(":");
   let returnStr;
   if(arr[0].parseInt() < 12)
   {
