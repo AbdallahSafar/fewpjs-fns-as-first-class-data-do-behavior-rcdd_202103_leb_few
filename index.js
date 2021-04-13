@@ -31,3 +31,8 @@ function greet(str)
 }
 
 /* Write your implementation of displayMessage() */
+function displayMessage(str)
+{
+  document.getElementById("greeting").innerText = str; 
+}
+
