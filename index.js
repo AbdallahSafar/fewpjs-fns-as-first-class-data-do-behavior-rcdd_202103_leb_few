@@ -14,12 +14,12 @@ function greet(time)
 {
   let arr = time.split(":");
   let returnStr;
-  if(arr[0].parseInt() < 12)
+  if(parseInt(arr[0]) < 12)
   {
     returnStr = "Good Morning";
   }
   else {
-    if(arr[0].parseInt() > 5)
+    if(parseInt(arr[0]) > 5)
     {
       returnStr = "Good Evening";
     }
