@@ -27,6 +27,7 @@ function greet(str)
       returnStr = "Good Afternoon";
     }
   }
+  return returnStr;
 }
 
 /* Write your implementation of displayMessage() */
