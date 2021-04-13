@@ -29,7 +29,6 @@ function greet(time)
   }
   return returnStr;
 }
-console.log(greet(document.getElementById('time').value));
 /* Write your implementation of displayMessage() */
 function displayMessage(str)
 {
