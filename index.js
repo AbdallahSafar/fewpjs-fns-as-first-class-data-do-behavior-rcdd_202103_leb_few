@@ -19,7 +19,7 @@ function greet(time)
     returnStr = "Good Morning";
   }
   else {
-    if(parseInt(arr[0]) > 5)
+    if(parseInt(arr[0]) > 17)
     {
       returnStr = "Good Evening";
     }
