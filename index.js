@@ -10,4 +10,20 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(str)
+{
+  let arr = str.split(":");
+  let returnStr;
+  if(arr[0].parseInt() < 12)
+  {
+    returnStr = "Good Morning";
+  }
+  else {
+    if(arr[0].parseInt() > 5)
+    {
+      returnStr = "Good Evening";
+    }
+  }
+}
+
 /* Write your implementation of displayMessage() */
