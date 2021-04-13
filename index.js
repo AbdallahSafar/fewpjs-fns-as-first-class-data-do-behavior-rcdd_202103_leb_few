@@ -29,7 +29,7 @@ function greet(time)
   }
   return returnStr;
 }
-console.log(greeting(document.getElementById('time').value))
+console.log(greet(document.getElementById('time').value))
 /* Write your implementation of displayMessage() */
 function displayMessage(str)
 {
