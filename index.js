@@ -23,6 +23,9 @@ function greet(str)
     {
       returnStr = "Good Evening";
     }
+    else {
+      returnStr = "Good Afternoon";
+    }
   }
 }
 
